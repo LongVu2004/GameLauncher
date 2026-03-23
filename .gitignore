@@ -1,0 +1,12 @@
+# Java compiled files
+*.class
+
+# Thư mục build phổ biến
+target/
+build/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml

@@ -1,0 +1,78 @@
+==================================================================
+   HƯỚNG DẪN CÀI ĐẶT VÀ CHƠI GAME: BẮN TÀU & NỐI ĐIỂM ONLINE
+==================================================================
+
+I. YÊU CẦU CẦN CÓ TRƯỚC
+------------------------------------------------------------------
+1. Máy tính phải cài đặt Java (JRE hoặc JDK 21). 
+   Nếu chưa có, tải tại: https://www.java.com/en/download/
+   
+2. Giữ nguyên cấu trúc thư mục. KHÔNG ĐƯỢC tách file .jar ra khỏi 
+   thư mục chứa hình ảnh (images) và âm thanh (sounds).
+
+II. CÁCH MỞ GAME
+------------------------------------------------------------------
+Cách 1 (Khuyên dùng): 
+   - Chạy file "GameLauncher.bat".
+   - Game sẽ bật lên ngay lập tức mà không hiện màn hình đen.
+
+Cách 2 (Dự phòng):
+   - Nếu file .bat không chạy, bạn có thể click đúp vào file "GameLauncher.jar". (Nếu có Java JRE)
+
+==================================================================
+III. HƯỚNG DẪN KẾT NỐI (QUAN TRỌNG)
+==================================================================
+
+TRƯỜNG HỢP A: HAI MÁY CÙNG BẮT CHUNG 1 WIFI (LAN)
+-------------------------------------------------
+1. Người Tạo Phòng (Máy A):
+   - Mở game lên.
+   - Nhìn dòng chữ vàng "IP Của Bạn" trên màn hình (Ví dụ: 192.168.1.5).
+   - Gửi số IP đó cho bạn bè.
+   - Nhập Tên -> Bấm vào game -> Chọn "TẠO PHÒNG" -> Gửi Mã Phòng cho bạn.
+
+2. Người Vào Phòng (Máy B):
+   - Mở game lên.
+   - Tại ô "IP Server": Nhập số IP của Máy A (Ví dụ: 192.168.1.5).
+   - Nhập Tên -> Bấm vào game -> Chọn "VÀO PHÒNG" -> Nhập Mã Phòng.
+   - Chiến thôi!
+
+TRƯỜNG HỢP B: HAI MÁY Ở XA NHAU (KHÁC NHÀ - DÙNG RADMIN VPN)
+-------------------------------------------------
+*Cả 2 máy đều phải cài phần mềm Radmin VPN (Miễn phí).*
+
+1. Thiết lập Radmin VPN:
+   - Máy A: Bấm nút "Create Network" -> Đặt tên và mật khẩu -> Bấm Create.
+   - Máy B: Bấm nút "Join Network" -> Nhập tên và mật khẩu của Máy A -> Bấm Join.
+   - Đợi khi nào tên máy của nhau sáng đèn xanh là OK.
+
+2. Vào Game:
+   - Người Tạo Phòng (Máy A): 
+     + Trên Radmin VPN, copy địa chỉ IP của chính mình (Thường bắt đầu là 26.xxx...).
+     + Gửi IP đó cho Máy B.
+     + Mở game -> Tạo phòng như bình thường.
+   
+   - Người Vào Phòng (Máy B):
+     + Mở game.
+     + Tại ô "IP Server": Dán địa chỉ IP Radmin của Máy A vào.
+     + Bấm vào game -> Nhập mã phòng để kết nối.
+
+==================================================================
+IV. KHẮC PHỤC LỖI KHÔNG KẾT NỐI ĐƯỢC
+==================================================================
+Nếu máy B nhập đúng IP mà game vẫn báo "Lỗi kết nối" hoặc xoay mãi không vào,
+99% là do Tường Lửa (Firewall) của Máy A đang chặn.
+
+CÁCH SỬA NHANH TRÊN MÁY A (MÁY CHỦ):
+1. Bấm phím Windows, gõ "Firewall".
+2. Chọn "Windows Defender Firewall".
+3. Ở menu bên trái, chọn "Turn Windows Defender Firewall on or off".
+4. Chọn "Turn off..." (Tắt) ở cả 2 mục Private và Public.
+5. Bấm OK và thử kết nối lại.
+
+(Lưu ý: Sau khi chơi xong nhớ bật lại Tường lửa để bảo vệ máy).
+
+==================================================================
+CHÚC CÁC BẠN CHƠI GAME VUI VẺ!
+Designer & Developer: [Long Vũ & Trọng Phước & Ngọc Trọng]
+==================================================================
