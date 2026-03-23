@@ -59,7 +59,6 @@ Trò chơi hỗ trợ kết nối 2 người chơi thông qua địa chỉ IP.
 
 ## 📸 Ảnh chụp màn hình (Screenshots)
 
-*(Bạn hãy thay thế các link ảnh dưới đây bằng ảnh thực tế của bạn trên GitHub nhé)*
 
 | Game Menu & Leaderboard | Battleship Gameplay |
 | :---: | :---: |
