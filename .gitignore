@@ -1,10 +1,11 @@
-# Java compiled files
+# Java
 *.class
-
-# Thư mục build phổ biến
 target/
 build/
 out/
+
+# Logs
+*.log
 
 # IDE
 .idea/
